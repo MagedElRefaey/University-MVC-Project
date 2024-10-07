@@ -1,0 +1,50 @@
+﻿
+@{
+    // Layout = "MultiplePages";
+}
+
+@* <!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>ManageCourses</title>
+    <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+</head>
+<body> *@
+    <h1 class="p-4 bg-light border rounded shadow text-center">
+        Courses in Department
+    </h1>
+    <form method="post">
+    <div class="container mt-5" >
+        <div class="d-flex justify-content-center">
+
+            <select name="RemovedCourses" multiple>
+                @foreach (Course course in ViewBag.coursesindepartment)
+                {
+                    <option value = "@course.CourseID"> @course.CourseName</option>
+                }
+            </select>
+
+        </div>
+    </div>
+    <h1 class="p-4 bg-light border rounded shadow text-center">
+        Courses that are not in Department
+    </h1>
+    <div class="container mt-5">
+        <div class="d-flex justify-content-center">
+
+            <select name="AddedCourses" multiple>
+                @foreach (Course course in ViewBag.coursesnotindepartment)
+                {
+                    <option value= "@course.CourseID"> @course.CourseName</option>
+                }
+            </select>
+                
+        </div>
+            <input type="submit" name="Add"/>
+    </div>
+    
+    </form>
+@* </body>
+</html *@>

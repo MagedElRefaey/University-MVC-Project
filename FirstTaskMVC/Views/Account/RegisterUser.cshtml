@@ -1,0 +1,25 @@
+﻿@using FirstTaskMVC.ViewModel
+
+@model User
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Login</title>
+</head>
+<body>
+    <form asp-action="RegisterUser" asp-controller="Account" method="post">
+        <div asp-validation-summary="ModelOnly"> </div>
+        @* <input type="hidden" asp-for="UserId" /> *@
+        <input asp-for="UserName" /> <span <asp-validation-for ="UserName"> </span><br />
+        <input asp-for="UserPassword" />  <span <asp-validation-for ="UserPassword"> </span><br />
+        <input type="submit" value="Login" /> <br />
+
+    </form>
+</body>
+</html>

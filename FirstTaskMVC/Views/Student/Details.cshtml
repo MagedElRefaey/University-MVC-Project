@@ -1,0 +1,46 @@
+﻿@* @model Student
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>MultiplePages</title>
+    <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel=" stylesheet" />
+</head>
+<body>
+<div class="container mt-5">
+    <div class="d-flex justify-content-center">
+        <h1 class="p-4 bg-light border rounded shadow text-center"
+        @Model.StudentId<br />
+            @Model.StudentFirstName<br />
+            @Model.StudentLastName<br />
+            @Model.DepartmentNo<br />
+            @Model.Department.DepartmentName<br />
+    </div>
+</div>
+</body>
+</html>
+
+ *@
+@model Student
+@{
+    // Layout = "MultiplePages";
+}
+
+
+    <div class="container mt-5">
+        <div class="d-flex justify-content-center">
+            <h1 class="p-4 bg-light border rounded shadow text-center"
+            @Model.StudentId<br />
+            @Model.StudentFirstName<br />
+            @Model.StudentLastName<br />
+            @Model.DepartmentNo<br />
+            @Model.Department.DepartmentName<br />
+        </div>
+    </div>
+

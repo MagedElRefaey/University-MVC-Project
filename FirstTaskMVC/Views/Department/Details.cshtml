@@ -1,0 +1,38 @@
+﻿@model Department
+@{
+    // Layout = "MultiplePages";
+}
+@* 
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Details</title>
+    <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+</head>
+<body> *@
+    <div class="container mt-5">
+        <div class="d-flex justify-content-center">
+            <h1 class="p-4 bg-light border rounded shadow text-center"
+            @Model.DepartmentId<br />
+            @Model.DepartmentName<br />
+            @Model.DepartmentDescription<br />
+                @if (Model.Students != null && Model.Students.Any())
+                {
+                    foreach (var student in Model.Students)
+                    {
+                        <div>@student.StudentId</div>
+                    }
+                }
+                else
+                {
+                          <div>
+                         No students
+                          </div>
+                }
+           
+        </div>
+    </div>
+@* </body>
+</html> *@

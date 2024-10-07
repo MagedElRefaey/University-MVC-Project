@@ -1,0 +1,62 @@
+﻿@model IEnumerable<Course>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel=" stylesheet" />
+</head>
+<body>
+    <a href="/Course/Create"> Create </a>
+    <table class="table table-bordered table-hover">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Course Name</th>
+                <th>Course Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model.Count() > 0)
+            {
+                foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.CourseID</td>
+                        <td>@item.CourseName</td>
+                        <td>@item.CourseDescription</td>
+@*                         <td>
+                            @if (item.Students != null && item.Students.Any())
+                            {
+                                foreach (var student in item.Students)
+                                {
+                                    <div>@student.StudentId</div>
+                                }
+                            }
+                            else
+                            {
+                                <div>
+                                    No students
+                                </div>
+                            }
+                        </td>
+                        <td> <a href="/Department/Details/@item.DepartmentId" class="text-danger">Details</a></td> *@
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr>
+                    <td colspan="3"> No Courses</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</body>
+</html>

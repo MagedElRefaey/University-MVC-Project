@@ -1,0 +1,67 @@
+﻿@model Role
+@{
+    // Layout = "MultiplePages";
+}
+
+
+
+@* <a href="/Department/ShowDepartmentForm"> Create </a> *@
+@* <table class="table table-bordered table-hover">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>User Name</th>
+            <th>User Password</th>
+            <th>Role Name</th>
+        </tr>
+    </thead>
+    <tbody> *@
+        <h1 class="p-4 bg-light border rounded shadow text-center"</h>
+        @Model.RoleId<br />
+            <ul>
+                @foreach (var course in Model.User)
+                {
+                                       @*  <li>@course.UserId <a asp-action ="AddDegree" asp-controller="Account" asp-route-departmetnid="@Model.RoleId" asp-route-courseid="@course.UserId"> Add Degree </a></li> *@
+                                        <li>@course.UserId</li>
+                }
+                </ul>
+                
+@*         @if (Model.Count() > 0)
+        {
+            foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.UserId</td>
+                    <td>@item.UserName</td>
+                    <td>@item.UserPassword</td>
+                    <td>@item.UserPassword</td> *@
+@*                     <td>
+                        @if (item.Students != null && item.Students.Any())
+                        {
+                            foreach (var student in item.Students)
+                            {
+                                <div>@student.StudentId</div>
+                            }
+                        }
+                        else
+                        {
+                            <div>
+                                No students
+                            </div>
+                        }
+                    </td> *@
+                    @* <td> <a href="/Account/Details/@item.UserId" class="text-danger">Details</a></td> *@
+@*                     <td> <a href="/Department/ShowCoursesDepartment/@item.DepartmentId" class="text-danger">Courses</a></td>
+                    <td> <a href="/Department/ManageCourses/@item.DepartmentId" class="text-danger">Manage Courses</a></td>
+                    <td> <a href="/Department/DeleteDepartment/@item.DepartmentId" class="text-danger">Delete Course</a></td> *@
+                </tr>
+@*             }
+        }
+        else
+        {
+            <tr>
+                <td colspan="3"> No Students</td>
+            </tr>
+        } *@
+@*     </tbody>
+</table> *@

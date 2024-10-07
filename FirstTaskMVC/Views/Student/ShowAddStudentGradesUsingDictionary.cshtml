@@ -1,0 +1,33 @@
+﻿@* @model Student
+@{
+    Layout = "MultiplePages";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>ShowAddStudentGradesUsingDictionary</title>
+</head>
+<body>
+    <form action="/Student/AddGradeDictionary" method="post">
+        <input type="hidden" name="Id" value="@Model.StudentId" />
+
+        <input type="text" name="GradeDictionary[@Model.StudentId]" />
+        <input type="submit" value="Add Grade"/>
+    </form>
+</body>
+</html>
+ *@
+
+@model Student
+@{
+    // Layout = "MultiplePages";
+}
+    <form action="/Student/AddGradeDictionary" method="post">
+        <input type="hidden" name="Id" value="@Model.StudentId" />
+
+        <input type="text" name="GradeDictionary[@Model.StudentId]" />
+        <input type="submit" value="Add Grade"/>
+    </form>

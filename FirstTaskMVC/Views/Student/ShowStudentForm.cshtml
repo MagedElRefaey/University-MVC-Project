@@ -1,0 +1,111 @@
+﻿@* 
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>ShowStudentForm</title>
+    <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="Container mt-5">
+        <h2 class="mb-4"> create new student</h2>
+    <form action="/Student/Create" method="post">
+       
+        <div class="mb-3">
+        <label for="StudentFirstName" class="form-label">Enter First Name</label>
+        <input type = "text" name ="StudentFirstName"/>
+         </div>
+             <div class="mb-3">
+                <label for="StudentLastName" class="form-label">Enter Last Name</label>
+        <input type = "text" name ="StudentLastName"/> 
+            </div>
+            <div class="mb-3">
+                <label for="StudentAge" class="form-label">Enter Age</label>
+        <input type = "text" name ="StudentAge"/> <br />
+            </div>
+            <div class="mb-3">
+                <label for="DepartmentNo" class="form-label">Enter Department Number</label>
+        <input type = "text" name ="DepartmentNo"/> <br />
+            </div>
+        <input type = "submit" name ="Add"/> 
+
+    </form>
+
+    </div>
+</body>
+</html>
+ *@
+ 
+
+ @model Student
+@{
+    // Layout = "MultiplePages";
+}
+@* 
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>ShowStudentForm</title>
+    <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+
+</head>
+<body> *@
+    <div class="Container mt-5">
+        <h2 class="mb-4"> create new student</h2>
+        <form asp-action="Create" asp-controller="Student" method="post">
+
+            <div class="mb-3">
+                <label asp-for="StudentFirstName" class="form-label"></label>
+                <input asp-for="StudentFirstName" />
+                <span asp-validation-for="StudentFirstName"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="StudentLastName" class="form-label"></label>
+                <input asp-for="StudentLastName" />
+                <span asp-validation-for="StudentLastName"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="StudentAge" class="form-label"></label>
+                <input asp-for="StudentAge" />
+                <span asp-validation-for="StudentAge"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="StudentEmail" class="form-label"></label>
+                <input asp-for="StudentEmail"/>
+                <span asp-validation-for="StudentEmail"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="StudentPassword" class="form-label"></label>
+                <input asp-for="StudentPassword"/>
+                <span asp-validation-for="StudentPassword"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="StudentConfirmPassword" class="form-label"></label>
+                <input asp-for="StudentConfirmPassword"/>
+                <span asp-validation-for="StudentConfirmPassword"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="DepartmentNo" class="form-label"></label>
+                <select asp-for="DepartmentNo" asp-items="@ViewBag.DepartmentList"></select>
+                <span asp-validation-for="DepartmentNo"></span>
+            </div>
+
+            <input type="submit" name="Add" />
+
+        </form>
+
+    </div>
+@section Validation {
+    <script src="~/lib/jquery-validation/dist/jquery.validate.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+    }
+@* </body>
+</html>
+ *@

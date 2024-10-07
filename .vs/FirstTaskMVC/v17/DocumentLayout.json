@@ -1,0 +1,454 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ITI\\MVC\\FirstTaskMVC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E80719B6-281D-4BA8-994B-2D0093504199}|FirstTaskMVC\\FirstTaskMVC.csproj|D:\\ITI\\MVC\\FirstTaskMVC\\firsttaskmvc\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E80719B6-281D-4BA8-994B-2D0093504199}|FirstTaskMVC\\FirstTaskMVC.csproj|solutionrelative:firsttaskmvc\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E80719B6-281D-4BA8-994B-2D0093504199}|FirstTaskMVC\\FirstTaskMVC.csproj|D:\\ITI\\MVC\\FirstTaskMVC\\firsttaskmvc\\views\\account\\showadminview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E80719B6-281D-4BA8-994B-2D0093504199}|FirstTaskMVC\\FirstTaskMVC.csproj|solutionrelative:firsttaskmvc\\views\\account\\showadminview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E80719B6-281D-4BA8-994B-2D0093504199}|FirstTaskMVC\\FirstTaskMVC.csproj|d:\\iti\\mvc\\firsttaskmvc\\firsttaskmvc\\views\\account\\manageusers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E80719B6-281D-4BA8-994B-2D0093504199}|FirstTaskMVC\\FirstTaskMVC.csproj|solutionrelative:firsttaskmvc\\views\\account\\manageusers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E80719B6-281D-4BA8-994B-2D0093504199}|FirstTaskMVC\\FirstTaskMVC.csproj|D:\\ITI\\MVC\\FirstTaskMVC\\firsttaskmvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E80719B6-281D-4BA8-994B-2D0093504199}|FirstTaskMVC\\FirstTaskMVC.csproj|solutionrelative:firsttaskmvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E80719B6-281D-4BA8-994B-2D0093504199}|FirstTaskMVC\\FirstTaskMVC.csproj|D:\\ITI\\MVC\\FirstTaskMVC\\firsttaskmvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E80719B6-281D-4BA8-994B-2D0093504199}|FirstTaskMVC\\FirstTaskMVC.csproj|solutionrelative:firsttaskmvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E80719B6-281D-4BA8-994B-2D0093504199}|FirstTaskMVC\\FirstTaskMVC.csproj|D:\\ITI\\MVC\\FirstTaskMVC\\firsttaskmvc\\views\\department\\managecourses.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E80719B6-281D-4BA8-994B-2D0093504199}|FirstTaskMVC\\FirstTaskMVC.csproj|solutionrelative:firsttaskmvc\\views\\department\\managecourses.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E80719B6-281D-4BA8-994B-2D0093504199}|FirstTaskMVC\\FirstTaskMVC.csproj|D:\\ITI\\MVC\\FirstTaskMVC\\firsttaskmvc\\views\\department\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E80719B6-281D-4BA8-994B-2D0093504199}|FirstTaskMVC\\FirstTaskMVC.csproj|solutionrelative:firsttaskmvc\\views\\department\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E80719B6-281D-4BA8-994B-2D0093504199}|FirstTaskMVC\\FirstTaskMVC.csproj|D:\\ITI\\MVC\\FirstTaskMVC\\firsttaskmvc\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E80719B6-281D-4BA8-994B-2D0093504199}|FirstTaskMVC\\FirstTaskMVC.csproj|solutionrelative:firsttaskmvc\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E80719B6-281D-4BA8-994B-2D0093504199}|FirstTaskMVC\\FirstTaskMVC.csproj|d:\\iti\\mvc\\firsttaskmvc\\firsttaskmvc\\views\\account\\showuserroles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E80719B6-281D-4BA8-994B-2D0093504199}|FirstTaskMVC\\FirstTaskMVC.csproj|solutionrelative:firsttaskmvc\\views\\account\\showuserroles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E80719B6-281D-4BA8-994B-2D0093504199}|FirstTaskMVC\\FirstTaskMVC.csproj|D:\\ITI\\MVC\\FirstTaskMVC\\firsttaskmvc\\views\\department\\showcoursesdepartment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E80719B6-281D-4BA8-994B-2D0093504199}|FirstTaskMVC\\FirstTaskMVC.csproj|solutionrelative:firsttaskmvc\\views\\department\\showcoursesdepartment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E80719B6-281D-4BA8-994B-2D0093504199}|FirstTaskMVC\\FirstTaskMVC.csproj|D:\\ITI\\MVC\\FirstTaskMVC\\firsttaskmvc\\services\\departmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E80719B6-281D-4BA8-994B-2D0093504199}|FirstTaskMVC\\FirstTaskMVC.csproj|solutionrelative:firsttaskmvc\\services\\departmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E80719B6-281D-4BA8-994B-2D0093504199}|FirstTaskMVC\\FirstTaskMVC.csproj|d:\\iti\\mvc\\firsttaskmvc\\firsttaskmvc\\services\\courseservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E80719B6-281D-4BA8-994B-2D0093504199}|FirstTaskMVC\\FirstTaskMVC.csproj|solutionrelative:firsttaskmvc\\services\\courseservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E80719B6-281D-4BA8-994B-2D0093504199}|FirstTaskMVC\\FirstTaskMVC.csproj|D:\\ITI\\MVC\\FirstTaskMVC\\firsttaskmvc\\models\\universitymvc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E80719B6-281D-4BA8-994B-2D0093504199}|FirstTaskMVC\\FirstTaskMVC.csproj|solutionrelative:firsttaskmvc\\models\\universitymvc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E80719B6-281D-4BA8-994B-2D0093504199}|FirstTaskMVC\\FirstTaskMVC.csproj|D:\\ITI\\MVC\\FirstTaskMVC\\firsttaskmvc\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E80719B6-281D-4BA8-994B-2D0093504199}|FirstTaskMVC\\FirstTaskMVC.csproj|solutionrelative:firsttaskmvc\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E80719B6-281D-4BA8-994B-2D0093504199}|FirstTaskMVC\\FirstTaskMVC.csproj|D:\\ITI\\MVC\\FirstTaskMVC\\firsttaskmvc\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E80719B6-281D-4BA8-994B-2D0093504199}|FirstTaskMVC\\FirstTaskMVC.csproj|solutionrelative:firsttaskmvc\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E80719B6-281D-4BA8-994B-2D0093504199}|FirstTaskMVC\\FirstTaskMVC.csproj|D:\\ITI\\MVC\\FirstTaskMVC\\firsttaskmvc\\services\\roleservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E80719B6-281D-4BA8-994B-2D0093504199}|FirstTaskMVC\\FirstTaskMVC.csproj|solutionrelative:firsttaskmvc\\services\\roleservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E80719B6-281D-4BA8-994B-2D0093504199}|FirstTaskMVC\\FirstTaskMVC.csproj|D:\\ITI\\MVC\\FirstTaskMVC\\firsttaskmvc\\services\\userservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E80719B6-281D-4BA8-994B-2D0093504199}|FirstTaskMVC\\FirstTaskMVC.csproj|solutionrelative:firsttaskmvc\\services\\userservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E80719B6-281D-4BA8-994B-2D0093504199}|FirstTaskMVC\\FirstTaskMVC.csproj|D:\\ITI\\MVC\\FirstTaskMVC\\firsttaskmvc\\views\\department\\showdepartmentform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E80719B6-281D-4BA8-994B-2D0093504199}|FirstTaskMVC\\FirstTaskMVC.csproj|solutionrelative:firsttaskmvc\\views\\department\\showdepartmentform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E80719B6-281D-4BA8-994B-2D0093504199}|FirstTaskMVC\\FirstTaskMVC.csproj|D:\\ITI\\MVC\\FirstTaskMVC\\firsttaskmvc\\views\\account\\newroleview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E80719B6-281D-4BA8-994B-2D0093504199}|FirstTaskMVC\\FirstTaskMVC.csproj|solutionrelative:firsttaskmvc\\views\\account\\newroleview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E80719B6-281D-4BA8-994B-2D0093504199}|FirstTaskMVC\\FirstTaskMVC.csproj|D:\\ITI\\MVC\\FirstTaskMVC\\firsttaskmvc\\views\\account\\newuserview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E80719B6-281D-4BA8-994B-2D0093504199}|FirstTaskMVC\\FirstTaskMVC.csproj|solutionrelative:firsttaskmvc\\views\\account\\newuserview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E80719B6-281D-4BA8-994B-2D0093504199}|FirstTaskMVC\\FirstTaskMVC.csproj|D:\\ITI\\MVC\\FirstTaskMVC\\firsttaskmvc\\views\\department\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E80719B6-281D-4BA8-994B-2D0093504199}|FirstTaskMVC\\FirstTaskMVC.csproj|solutionrelative:firsttaskmvc\\views\\department\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E80719B6-281D-4BA8-994B-2D0093504199}|FirstTaskMVC\\FirstTaskMVC.csproj|D:\\ITI\\MVC\\FirstTaskMVC\\firsttaskmvc\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E80719B6-281D-4BA8-994B-2D0093504199}|FirstTaskMVC\\FirstTaskMVC.csproj|solutionrelative:firsttaskmvc\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E80719B6-281D-4BA8-994B-2D0093504199}|FirstTaskMVC\\FirstTaskMVC.csproj|D:\\ITI\\MVC\\FirstTaskMVC\\firsttaskmvc\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E80719B6-281D-4BA8-994B-2D0093504199}|FirstTaskMVC\\FirstTaskMVC.csproj|solutionrelative:firsttaskmvc\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E80719B6-281D-4BA8-994B-2D0093504199}|FirstTaskMVC\\FirstTaskMVC.csproj|D:\\ITI\\MVC\\FirstTaskMVC\\firsttaskmvc\\views\\student\\showstudentform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E80719B6-281D-4BA8-994B-2D0093504199}|FirstTaskMVC\\FirstTaskMVC.csproj|solutionrelative:firsttaskmvc\\views\\student\\showstudentform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E80719B6-281D-4BA8-994B-2D0093504199}|FirstTaskMVC\\FirstTaskMVC.csproj|D:\\ITI\\MVC\\FirstTaskMVC\\firsttaskmvc\\views\\student\\showupdatestudentform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E80719B6-281D-4BA8-994B-2D0093504199}|FirstTaskMVC\\FirstTaskMVC.csproj|solutionrelative:firsttaskmvc\\views\\student\\showupdatestudentform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E80719B6-281D-4BA8-994B-2D0093504199}|FirstTaskMVC\\FirstTaskMVC.csproj|D:\\ITI\\MVC\\FirstTaskMVC\\firsttaskmvc\\viewmodel\\showviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E80719B6-281D-4BA8-994B-2D0093504199}|FirstTaskMVC\\FirstTaskMVC.csproj|solutionrelative:firsttaskmvc\\viewmodel\\showviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ShowAdminView.cshtml",
+              "DocumentMoniker": "D:\\ITI\\MVC\\FirstTaskMVC\\FirstTaskMVC\\Views\\Account\\ShowAdminView.cshtml",
+              "RelativeDocumentMoniker": "FirstTaskMVC\\Views\\Account\\ShowAdminView.cshtml",
+              "ToolTip": "D:\\ITI\\MVC\\FirstTaskMVC\\FirstTaskMVC\\Views\\Account\\ShowAdminView.cshtml",
+              "RelativeToolTip": "FirstTaskMVC\\Views\\Account\\ShowAdminView.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACEAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-23T00:07:54.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ManageUsers.cshtml",
+              "DocumentMoniker": "D:\\ITI\\MVC\\FirstTaskMVC\\FirstTaskMVC\\Views\\Account\\ManageUsers.cshtml",
+              "RelativeDocumentMoniker": "FirstTaskMVC\\Views\\Account\\ManageUsers.cshtml",
+              "ToolTip": "D:\\ITI\\MVC\\FirstTaskMVC\\FirstTaskMVC\\Views\\Account\\ManageUsers.cshtml",
+              "RelativeToolTip": "FirstTaskMVC\\Views\\Account\\ManageUsers.cshtml",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAAC4AAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-24T15:10:34.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\ITI\\MVC\\FirstTaskMVC\\FirstTaskMVC\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "FirstTaskMVC\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\ITI\\MVC\\FirstTaskMVC\\FirstTaskMVC\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "FirstTaskMVC\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAGUAAAAAAAAAAAAAAHMAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T21:43:28.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ITI\\MVC\\FirstTaskMVC\\FirstTaskMVC\\Program.cs",
+              "RelativeDocumentMoniker": "FirstTaskMVC\\Program.cs",
+              "ToolTip": "D:\\ITI\\MVC\\FirstTaskMVC\\FirstTaskMVC\\Program.cs",
+              "RelativeToolTip": "FirstTaskMVC\\Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAoAAABVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T01:33:00.064Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\ITI\\MVC\\FirstTaskMVC\\FirstTaskMVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "FirstTaskMVC\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\ITI\\MVC\\FirstTaskMVC\\FirstTaskMVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "FirstTaskMVC\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAACsAAACAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-22T01:27:21.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ManageCourses.cshtml",
+              "DocumentMoniker": "D:\\ITI\\MVC\\FirstTaskMVC\\FirstTaskMVC\\Views\\Department\\ManageCourses.cshtml",
+              "RelativeDocumentMoniker": "FirstTaskMVC\\Views\\Department\\ManageCourses.cshtml",
+              "ToolTip": "D:\\ITI\\MVC\\FirstTaskMVC\\FirstTaskMVC\\Views\\Department\\ManageCourses.cshtml",
+              "RelativeToolTip": "FirstTaskMVC\\Views\\Department\\ManageCourses.cshtml",
+              "ViewState": "AQIAABoAAAAAAAAAAAAAACwAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-22T15:22:27.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\ITI\\MVC\\FirstTaskMVC\\FirstTaskMVC\\Views\\Department\\Index.cshtml",
+              "RelativeDocumentMoniker": "FirstTaskMVC\\Views\\Department\\Index.cshtml",
+              "ToolTip": "D:\\ITI\\MVC\\FirstTaskMVC\\FirstTaskMVC\\Views\\Department\\Index.cshtml",
+              "RelativeToolTip": "FirstTaskMVC\\Views\\Department\\Index.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACsAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-22T15:22:09.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DepartmentController.cs",
+              "DocumentMoniker": "D:\\ITI\\MVC\\FirstTaskMVC\\FirstTaskMVC\\Controllers\\DepartmentController.cs",
+              "RelativeDocumentMoniker": "FirstTaskMVC\\Controllers\\DepartmentController.cs",
+              "ToolTip": "D:\\ITI\\MVC\\FirstTaskMVC\\FirstTaskMVC\\Controllers\\DepartmentController.cs",
+              "RelativeToolTip": "FirstTaskMVC\\Controllers\\DepartmentController.cs",
+              "ViewState": "AQIAAF0AAAAAAAAAAAAgwGMAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T11:07:17.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ShowUserRoles.cshtml",
+              "DocumentMoniker": "D:\\ITI\\MVC\\FirstTaskMVC\\FirstTaskMVC\\Views\\Account\\ShowUserRoles.cshtml",
+              "RelativeDocumentMoniker": "FirstTaskMVC\\Views\\Account\\ShowUserRoles.cshtml",
+              "ToolTip": "D:\\ITI\\MVC\\FirstTaskMVC\\FirstTaskMVC\\Views\\Account\\ShowUserRoles.cshtml",
+              "RelativeToolTip": "FirstTaskMVC\\Views\\Account\\ShowUserRoles.cshtml",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAawB4AAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-22T15:28:50.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ShowCoursesDepartment.cshtml",
+              "DocumentMoniker": "D:\\ITI\\MVC\\FirstTaskMVC\\FirstTaskMVC\\Views\\Department\\ShowCoursesDepartment.cshtml",
+              "RelativeDocumentMoniker": "FirstTaskMVC\\Views\\Department\\ShowCoursesDepartment.cshtml",
+              "ToolTip": "D:\\ITI\\MVC\\FirstTaskMVC\\FirstTaskMVC\\Views\\Department\\ShowCoursesDepartment.cshtml",
+              "RelativeToolTip": "FirstTaskMVC\\Views\\Department\\ShowCoursesDepartment.cshtml",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAqwBoAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-22T03:31:32.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DepartmentService.cs",
+              "DocumentMoniker": "D:\\ITI\\MVC\\FirstTaskMVC\\FirstTaskMVC\\Services\\DepartmentService.cs",
+              "RelativeDocumentMoniker": "FirstTaskMVC\\Services\\DepartmentService.cs",
+              "ToolTip": "D:\\ITI\\MVC\\FirstTaskMVC\\FirstTaskMVC\\Services\\DepartmentService.cs",
+              "RelativeToolTip": "FirstTaskMVC\\Services\\DepartmentService.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwBsAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T15:24:15.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CourseServices.cs",
+              "DocumentMoniker": "D:\\ITI\\MVC\\FirstTaskMVC\\FirstTaskMVC\\Services\\CourseServices.cs",
+              "RelativeDocumentMoniker": "FirstTaskMVC\\Services\\CourseServices.cs",
+              "ToolTip": "D:\\ITI\\MVC\\FirstTaskMVC\\FirstTaskMVC\\Services\\CourseServices.cs",
+              "RelativeToolTip": "FirstTaskMVC\\Services\\CourseServices.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA4AAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T05:35:05.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UniversityMVC.cs",
+              "DocumentMoniker": "D:\\ITI\\MVC\\FirstTaskMVC\\FirstTaskMVC\\Models\\UniversityMVC.cs",
+              "RelativeDocumentMoniker": "FirstTaskMVC\\Models\\UniversityMVC.cs",
+              "ToolTip": "D:\\ITI\\MVC\\FirstTaskMVC\\FirstTaskMVC\\Models\\UniversityMVC.cs",
+              "RelativeToolTip": "FirstTaskMVC\\Models\\UniversityMVC.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAAAEsAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T10:19:33.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "D:\\ITI\\MVC\\FirstTaskMVC\\FirstTaskMVC\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "FirstTaskMVC\\Controllers\\StudentController.cs",
+              "ToolTip": "D:\\ITI\\MVC\\FirstTaskMVC\\FirstTaskMVC\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "FirstTaskMVC\\Controllers\\StudentController.cs",
+              "ViewState": "AQIAAJgAAAAAAAAAAAAuwBoAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T09:22:28.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Department.cs",
+              "DocumentMoniker": "D:\\ITI\\MVC\\FirstTaskMVC\\FirstTaskMVC\\Models\\Department.cs",
+              "RelativeDocumentMoniker": "FirstTaskMVC\\Models\\Department.cs",
+              "ToolTip": "D:\\ITI\\MVC\\FirstTaskMVC\\FirstTaskMVC\\Models\\Department.cs",
+              "RelativeToolTip": "FirstTaskMVC\\Models\\Department.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T00:04:24.486Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "RoleServices.cs",
+              "DocumentMoniker": "D:\\ITI\\MVC\\FirstTaskMVC\\FirstTaskMVC\\Services\\RoleServices.cs",
+              "RelativeDocumentMoniker": "FirstTaskMVC\\Services\\RoleServices.cs",
+              "ToolTip": "D:\\ITI\\MVC\\FirstTaskMVC\\FirstTaskMVC\\Services\\RoleServices.cs",
+              "RelativeToolTip": "FirstTaskMVC\\Services\\RoleServices.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T03:02:00.773Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UserServices.cs",
+              "DocumentMoniker": "D:\\ITI\\MVC\\FirstTaskMVC\\FirstTaskMVC\\Services\\UserServices.cs",
+              "RelativeDocumentMoniker": "FirstTaskMVC\\Services\\UserServices.cs",
+              "ToolTip": "D:\\ITI\\MVC\\FirstTaskMVC\\FirstTaskMVC\\Services\\UserServices.cs",
+              "RelativeToolTip": "FirstTaskMVC\\Services\\UserServices.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T10:48:07.548Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ShowDepartmentForm.cshtml",
+              "DocumentMoniker": "D:\\ITI\\MVC\\FirstTaskMVC\\FirstTaskMVC\\Views\\Department\\ShowDepartmentForm.cshtml",
+              "RelativeDocumentMoniker": "FirstTaskMVC\\Views\\Department\\ShowDepartmentForm.cshtml",
+              "ToolTip": "D:\\ITI\\MVC\\FirstTaskMVC\\FirstTaskMVC\\Views\\Department\\ShowDepartmentForm.cshtml",
+              "RelativeToolTip": "FirstTaskMVC\\Views\\Department\\ShowDepartmentForm.cshtml",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-23T01:02:42.505Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "NewRoleView.cshtml",
+              "DocumentMoniker": "D:\\ITI\\MVC\\FirstTaskMVC\\FirstTaskMVC\\Views\\Account\\NewRoleView.cshtml",
+              "RelativeDocumentMoniker": "FirstTaskMVC\\Views\\Account\\NewRoleView.cshtml",
+              "ToolTip": "D:\\ITI\\MVC\\FirstTaskMVC\\FirstTaskMVC\\Views\\Account\\NewRoleView.cshtml",
+              "RelativeToolTip": "FirstTaskMVC\\Views\\Account\\NewRoleView.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-22T11:03:18.23Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "NewUserView.cshtml",
+              "DocumentMoniker": "D:\\ITI\\MVC\\FirstTaskMVC\\FirstTaskMVC\\Views\\Account\\NewUserView.cshtml",
+              "RelativeDocumentMoniker": "FirstTaskMVC\\Views\\Account\\NewUserView.cshtml",
+              "ToolTip": "D:\\ITI\\MVC\\FirstTaskMVC\\FirstTaskMVC\\Views\\Account\\NewUserView.cshtml",
+              "RelativeToolTip": "FirstTaskMVC\\Views\\Account\\NewUserView.cshtml",
+              "ViewState": "AQIAABAAAAAAAAAAAAAmwCAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-22T10:37:23.111Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\ITI\\MVC\\FirstTaskMVC\\FirstTaskMVC\\Views\\Department\\Details.cshtml",
+              "RelativeDocumentMoniker": "FirstTaskMVC\\Views\\Department\\Details.cshtml",
+              "ToolTip": "D:\\ITI\\MVC\\FirstTaskMVC\\FirstTaskMVC\\Views\\Department\\Details.cshtml",
+              "RelativeToolTip": "FirstTaskMVC\\Views\\Department\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-22T20:52:59.201Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Role.cs",
+              "DocumentMoniker": "D:\\ITI\\MVC\\FirstTaskMVC\\FirstTaskMVC\\Models\\Role.cs",
+              "RelativeDocumentMoniker": "FirstTaskMVC\\Models\\Role.cs",
+              "ToolTip": "D:\\ITI\\MVC\\FirstTaskMVC\\FirstTaskMVC\\Models\\Role.cs",
+              "RelativeToolTip": "FirstTaskMVC\\Models\\Role.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T01:56:11.042Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\ITI\\MVC\\FirstTaskMVC\\FirstTaskMVC\\Models\\User.cs",
+              "RelativeDocumentMoniker": "FirstTaskMVC\\Models\\User.cs",
+              "ToolTip": "D:\\ITI\\MVC\\FirstTaskMVC\\FirstTaskMVC\\Models\\User.cs",
+              "RelativeToolTip": "FirstTaskMVC\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T01:54:49.661Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ShowStudentForm.cshtml",
+              "DocumentMoniker": "D:\\ITI\\MVC\\FirstTaskMVC\\FirstTaskMVC\\Views\\Student\\ShowStudentForm.cshtml",
+              "RelativeDocumentMoniker": "FirstTaskMVC\\Views\\Student\\ShowStudentForm.cshtml",
+              "ToolTip": "D:\\ITI\\MVC\\FirstTaskMVC\\FirstTaskMVC\\Views\\Student\\ShowStudentForm.cshtml",
+              "RelativeToolTip": "FirstTaskMVC\\Views\\Student\\ShowStudentForm.cshtml",
+              "ViewState": "AQIAAEYAAAAAAAAAAAAAADsAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-22T03:14:38.107Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ShowUpdateStudentForm.cshtml",
+              "DocumentMoniker": "D:\\ITI\\MVC\\FirstTaskMVC\\FirstTaskMVC\\Views\\Student\\ShowUpdateStudentForm.cshtml",
+              "RelativeDocumentMoniker": "FirstTaskMVC\\Views\\Student\\ShowUpdateStudentForm.cshtml",
+              "ToolTip": "D:\\ITI\\MVC\\FirstTaskMVC\\FirstTaskMVC\\Views\\Student\\ShowUpdateStudentForm.cshtml",
+              "RelativeToolTip": "FirstTaskMVC\\Views\\Student\\ShowUpdateStudentForm.cshtml",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAADoAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-22T03:43:50.481Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ShowViewModel.cs",
+              "DocumentMoniker": "D:\\ITI\\MVC\\FirstTaskMVC\\FirstTaskMVC\\ViewModel\\ShowViewModel.cs",
+              "RelativeDocumentMoniker": "FirstTaskMVC\\ViewModel\\ShowViewModel.cs",
+              "ToolTip": "D:\\ITI\\MVC\\FirstTaskMVC\\FirstTaskMVC\\ViewModel\\ShowViewModel.cs",
+              "RelativeToolTip": "FirstTaskMVC\\ViewModel\\ShowViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T00:43:04.084Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

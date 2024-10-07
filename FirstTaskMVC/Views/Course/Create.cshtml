@@ -1,0 +1,39 @@
+﻿@model Course
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Create</title>
+    <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+</head>
+<body>
+
+    <div class="Container mt-5">
+        <h2 class="mb-4"> create new Course</h2>
+        <form asp-action="Create" method="post">
+
+            <div class="mb-3">
+                @*                 <label for="DepartmentName" class="form-label">Enter Department Name</label>
+                <input type="text" name="DepartmentName" /> *@
+                <label asp-for="CourseName" class="form-label"></label>
+                <input asp-for="CourseName" />
+                <span asp-validation-for="CourseName"></span>
+            </div>
+            <div class="mb-3">
+                @*                 <label for="DepartmentDescription" class="form-label">Enter Department Description</label>
+                <input type="text" name="DepartmentDescription" /> *@
+                <label asp-for="CourseDescription" class="form-label"></label>
+                <input asp-for="CourseDescription" />
+                <span asp-validation-for="CourseDescription"></span>
+            </div>
+            <input type="submit" name="Add" />
+        </form>
+    </div>
+
+</body>
+</html>

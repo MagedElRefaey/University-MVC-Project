@@ -1,0 +1,93 @@
+﻿@* @model Student
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>ShowUpdateStudentForm</title>
+    <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="Container mt-5">
+        <h2 class="mb-4"> Update student</h2>
+        <form action="/Student/Update" method="post">
+            <input type="hidden" name="StudentId"  />
+            <div class="mb-3">
+                <label for="StudentFirstName" class="form-label">Enter New First Name</label>
+                <input type="text" name="StudentFirstName" value="@Model.StudentFirstName" />
+            </div>
+            <div class="mb-3">
+                <label for="StudentLastName" class="form-label">Enter New Last Name</label>
+                <input type="text" name="StudentLastName" value="@Model.StudentLastName" />
+            </div>
+            <div class="mb-3">
+                <label for="StudentAge" class="form-label">Enter New Age</label>
+                <input type="text" name="StudentAge" value="@Model.StudentAge" />
+            </div>
+            <div class="mb-3">
+                <label for="DepartmentNo" class="form-label">Enter New Department Number</label>
+                <input type="text" name="DepartmentNo" value="@Model.DepartmentNo" />
+            </div>
+            <input type="submit"/>
+
+        </form>
+
+    </div>
+</body>
+</html>
+ *@
+
+@model Student
+@{
+    // Layout = "MultiplePages";
+}
+
+@* <!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>ShowUpdateStudentForm</title>
+    <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+</head>
+<body> *@
+    <div class="Container mt-5">
+        <h2 class="mb-4"> Update student</h2>
+        <form asp-action="Update" asp-controller="Student" method="post">
+            <input type="hidden" asp-for="StudentId" />
+            @* can we use tag helper with regular html ??
+            <input type="hidden" name="StudentId" />
+            will not work
+            *@
+            <div class="mb-3">
+                <label asp-for="StudentFirstName" class="form-label">Enter New First Name</label>
+                <input asp-for="StudentFirstName" />
+            </div>
+            <div class="mb-3">
+                <label asp-for="StudentLastName" class="form-label">Enter New Last Name</label>
+                <input asp-for="StudentLastName" />
+            </div>
+            <div class="mb-3">
+                <label asp-for="StudentAge" class="form-label">Enter New Age</label>
+                <input asp-for="StudentAge" />
+            </div>
+            <div class="mb-3">
+                <label asp-for="StudentEmail" class="form-label">Enter New Email</label>
+                <input asp-for="StudentEmail"/>
+            </div>
+            <div class="mb-3">
+                <label asp-for="DepartmentNo" class="form-label">Enter New Department Number</label>
+                <select asp-for="DepartmentNo" asp-items="@ViewBag.DepartmentList"> </select>
+            </div>
+            <input type="submit" />
+
+        </form>
+
+    </div>
+@* </body>
+</html>
+ *@

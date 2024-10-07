@@ -1,0 +1,37 @@
+﻿@model Department
+@{
+    // Layout = "MultiplePages";
+}
+
+@* <!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>ShowDepartmentForm</title>
+    <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+</head>
+<body> *@
+    <div class="Container mt-5">
+        <h2 class="mb-4"> create new Department</h2>
+        <form asp-action="Create" method="post">
+
+            <div class="mb-3">
+@*                 <label for="DepartmentName" class="form-label">Enter Department Name</label>
+                <input type="text" name="DepartmentName" /> *@
+                <label asp-for="DepartmentName" class="form-label"></label>
+                <input asp-for="DepartmentName" />
+                <span asp-validation-for="DepartmentName"></span>
+            </div>
+            <div class="mb-3">
+@*                 <label for="DepartmentDescription" class="form-label">Enter Department Description</label>
+                <input type="text" name="DepartmentDescription" /> *@
+                <label asp-for="DepartmentDescription" class="form-label"></label>
+                <input asp-for="DepartmentDescription" />
+                <span asp-validation-for="DepartmentDescription"></span>
+            </div>
+            <input type="submit" name="Add" />
+        </form>
+    </div>
+@* </body>
+</html> *@

@@ -1,0 +1,56 @@
+﻿@model IEnumerable<Department>
+@{
+    // Layout = "MultiplePages";
+}
+
+
+
+    <a href="/Department/ShowDepartmentForm"> Create </a>
+    <table class="table table-bordered table-hover">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Department Name</th>
+                <th>Department Description</th>
+                <th>Student Id</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model.Count() > 0)
+            {
+                foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.DepartmentId</td>
+                        <td>@item.DepartmentName</td>
+                        <td>@item.DepartmentDescription</td>
+                        <td>
+                            @if(item.Students!=null && item.Students.Any())
+                            {
+                                foreach(var student in item.Students)
+                                {
+                                    <div>@student.StudentId</div>
+                                }
+                            }
+                            else
+                            {
+                                <div>
+                                    No students
+                                </div>
+                            }
+                        </td>
+                        <td> <a href="/Department/Details/@item.DepartmentId" class="text-danger">Details</a></td>
+                        <td> <a href="/Department/ShowCoursesDepartment/@item.DepartmentId" class="text-danger">Courses</a></td>
+                        <td> <a href="/Department/ManageCourses/@item.DepartmentId" class="text-danger">Manage Courses</a></td>
+                        <td> <a href="/Department/DeleteDepartment/@item.DepartmentId" class="text-danger">Delete Course</a></td>
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr>
+                    <td colspan="3"> No Students</td>
+                </tr>
+            }
+        </tbody>
+    </table>

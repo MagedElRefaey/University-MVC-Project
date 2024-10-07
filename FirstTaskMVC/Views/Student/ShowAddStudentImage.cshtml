@@ -1,0 +1,33 @@
+﻿@*
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>MultiplePages</title>
+    <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel=" stylesheet" />
+</head>
+<body>
+<form action="/Student/AddPhoto" method="post" enctype="multipart/form-data">
+
+    <input type="file" name="StudentPhoto" />
+    <input type="submit" value="add" />
+</form>
+</body>
+</html>
+
+ *@
+
+@{
+    // Layout = "MultiplePages";
+}
+
+    <form action="/Student/AddPhoto" method="post" enctype="multipart/form-data">
+
+        <input type="file" name="StudentPhoto"/>
+        <input type ="submit" value="add"/>
+    </form>

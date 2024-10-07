@@ -1,0 +1,41 @@
+﻿@model Department
+@{
+    // Layout = "MultiplePages";
+}
+@* 
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>ShowCoursesDepartment</title>
+</head>
+<body> *@
+    <div class="container mt-5">
+        <div class="d-flex justify-content-center">
+            <h1 class="p-4 bg-light border rounded shadow text-center"
+            @Model.DepartmentName<br />
+            <ul>
+                @foreach(var course in Model.Courses)
+                    {
+                                    <li>@course.CourseName <a asp-action ="AddDegree" asp-controller="Department" asp-route-departmetnid="@Model.DepartmentId" asp-route-courseid="@course.CourseID"> Add Degree </a></li>
+                    }
+                </ul>
+@*                 @if (Model.Students != null && Model.Students.Any())
+                {
+                    foreach (var student in Model.Students)
+                    {
+                                <div>@student.StudentId</div>
+                    }
+                }
+                else
+                {
+                              <div>
+                             No students
+                              </div>
+                } *@
+
+        </div>
+    </div>
+@* </body>
+</html> *@

@@ -1,0 +1,179 @@
+﻿@* @model IEnumerable<Student>
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel=" stylesheet"/>
+</head>
+<body>
+    <a href="/Student/ShowStudentForm"> Create </a>
+    <table class="table table-bordered table-hover">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>FirstName</th>
+                <th>LastName</th>
+                <th>Age</th>
+                <th>DepartmentNo</th>
+                <th>DepartmentName</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if(Model.Count()>0)
+            {
+                foreach(var item in Model)
+                {
+                    <tr>
+                        <td>@item.StudentId</td>
+                        <td>@item.StudentFirstName</td>
+                        <td>@item.StudentLastName</td>
+                        <td>@item.StudentAge</td>
+                        <td>@item.DepartmentNo</td>
+                        <td>@item.Department.DepartmentName</td>
+                        <td> <a href="/student/Details/@item.StudentId" class="text-danger">Details</a></td>
+                        <td> <a href="/student/ShowUpdateStudentForm/@item.StudentId" class="text-danger">Update</a></td>
+                        <td> <a href="/student/ShowAddStudentImage/@item.StudentId" class="text-danger">Add Photo</a></td>
+                        <td> <a href="/student/ShowAddStudentGradesUsingDictionary/@item.StudentId" class="text-danger">Add Grade</a></td>
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr>
+                    <td colspan="3"> No Students</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</body>
+</html>
+ *@
+
+
+@* @model IEnumerable<Student>
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel=" stylesheet"/>
+</head>
+<body>
+    <a href="/Student/ShowStudentForm"> Create </a>
+    <br />
+    @Html.ActionLink("Student Create", "ShowStudentForm", "Student", new{@class = "btn btn-warning" })
+    <table class="table table-bordered table-hover">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>FirstName</th>
+                <th>LastName</th>
+                <th>Age</th>
+                <th>Email</th>
+                <th>DepartmentNo</th>
+                <th>DepartmentName</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if(Model.Count()>0)
+            {
+                foreach(var item in Model)
+                {
+                    <tr>
+                        <td>@item.StudentId</td>
+                        <td>@item.StudentFirstName</td>
+                        <td>@item.StudentLastName</td>
+                        <td>@item.StudentAge</td>
+                        <td>@item.StudentEmail</td>
+                        <td>@item.DepartmentNo</td>
+                        
+                        
+                        <td>@item.Department.DepartmentName</td>
+                        
+                        <td> <a asp-action="Details" asp-route-id="@item.StudentId" class="text-danger">Details</a>
+                             @Html.ActionLink("Student Details","Details","Student",new{Id=item.StudentId},new{@class="btn btn-warning"})                            
+                        </td>
+                        <td> <a asp-action="ShowUpdateStudentForm" asp-route-id="@item.StudentId" class="text-danger">Update</a></td>
+                        <td> <a asp-action="ShowAddStudentImage" asp-route-id="@item.StudentId" class="text-danger">Add Photo</a></td>
+                        <td> <a asp-action="ShowAddStudentGradesUsingDictionary" asp-route-id="@item.StudentId" class="text-danger">Add Grade</a></td>
+                        <td> <a asp-action="Delete" asp-route-id="@item.StudentId" class="text-danger">Delete Student</a></td>
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr>
+                    <td colspan="3"> No Students</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</body>
+</html> *@
+
+@model IEnumerable<Student>
+@{
+    // Layout = "MultiplePages";
+}
+
+    <a href="/Student/ShowStudentForm"> Create </a>
+    <br />
+    @Html.ActionLink("Student Create", "ShowStudentForm", "Student", new { @class = "btn btn-warning" })
+    <table class="table table-bordered table-hover">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>FirstName</th>
+                <th>LastName</th>
+                <th>Age</th>
+                <th>Email</th>
+                <th>DepartmentNo</th>
+                <th>DepartmentName</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model.Count() > 0)
+            {
+                foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.StudentId</td>
+                        <td>@item.StudentFirstName</td>
+                        <td>@item.StudentLastName</td>
+                        <td>@item.StudentAge</td>
+                        <td>@item.StudentEmail</td>
+                        <td>@item.DepartmentNo</td>
+
+
+                        <td>@item.Department.DepartmentName</td>
+
+                        <td>
+                            <a asp-action="Details" asp-route-id="@item.StudentId" class="text-danger">Details</a>
+                            @Html.ActionLink("Student Details", "Details", "Student", new { Id = item.StudentId }, new { @class = "btn btn-warning" })
+                        </td>
+                        <td> <a asp-action="ShowUpdateStudentForm" asp-route-id="@item.StudentId" class="text-danger">Update</a></td>
+                        <td> <a asp-action="ShowAddStudentImage" asp-route-id="@item.StudentId" class="text-danger">Add Photo</a></td>
+                        <td> <a asp-action="ShowAddStudentGradesUsingDictionary" asp-route-id="@item.StudentId" class="text-danger">Add Grade</a></td>
+                        <td> <a asp-action="Delete" asp-route-id="@item.StudentId" class="text-danger">Delete Student</a></td>
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr>
+                    <td colspan="3"> No Students</td>
+                </tr>
+            }
+        </tbody>
+    </table>

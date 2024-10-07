@@ -1,0 +1,49 @@
+﻿@{
+    // Layout = "MultiplePages";
+}
+
+@* <!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>ManageCourses</title>
+    <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+</head>
+<body> *@
+<h1 class="p-4 bg-light border rounded shadow text-center">
+    Users in Role
+</h1>
+<form method="post">
+    <div class="container mt-5">
+        <div class="d-flex justify-content-center">
+
+            <select name="RemovedUsers" multiple>
+                @foreach (User user in ViewBag.usersinrole)
+                {
+                    <option value="@user.UserId"> @user.UserName</option>
+                }
+            </select>
+
+        </div>
+    </div>
+    <h1 class="p-4 bg-light border rounded shadow text-center">
+        Users that are not in Role
+    </h1>
+    <div class="container mt-5">
+        <div class="d-flex justify-content-center">
+
+            <select name="AddedUsers" multiple>
+                @foreach (User user in ViewBag.usersnotinrole)
+                {
+                    <option value="@user.UserId"> @user.UserName</option>
+                }
+            </select>
+
+        </div>
+        <input type="submit" name="Add" />
+    </div>
+
+</form>
+@* </body>
+</html *@>
